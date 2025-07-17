@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(135deg, #ff00cc, #3333ff);
+  color: white;
+  font-family: 'Comic Sans MS', cursive;
+  animation: backgroundShift 20s infinite linear;
+}
+
+@keyframes backgroundShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+#spruch-anzeige p {
+  font-size: 1.5rem;
+  color: #00ffc8;
+  text-shadow: 2px 2px 5px black;
+}
+
+#spruch-anzeige footer {
+  color: yellow;
+}
+
+.list-group-item {
+  background: rgb(8, 165, 100);
+  border: 2px dashed #ff00ff;
+  color: white;
+  position: relative;
+}
+
+.loeschen-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: #ff0033;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.loeschen-btn:hover {
+  background: #ff6600;
+}
+
+#zeichen-counter {
+  color: yellow;
+}
